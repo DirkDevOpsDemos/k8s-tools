@@ -1,0 +1,6 @@
+# Kubectl Auto Completion
+echo 'source <(kubectl completion bash)' >>~/.bashrc
+sudo -i
+kubectl completion bash >/etc/bash_completion.d/kubectl
+exit
+source .bashrc
